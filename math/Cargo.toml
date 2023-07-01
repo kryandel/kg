@@ -1,0 +1,8 @@
+[package]
+name = "math"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vec_derive = { path = "../vec_derive" }
+generic-array = "1.0.0-alpha.1"

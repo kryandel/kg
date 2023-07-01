@@ -1,0 +1,13 @@
+[package]
+name = "engine_math"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+math = { path = "math" }
+
+[workspace]
+members = [
+    "math",
+    "vec_derive",
+]
